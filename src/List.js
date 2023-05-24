@@ -1,7 +1,9 @@
 import axios from 'axios';
 import React, { useEffect, useState } from "react";
 
+
 let MyData = [''];
+
 function List(){
 
 
@@ -14,25 +16,24 @@ useEffect(() => {
 },[""]);
 
     async function getData() {
-        const response = await axios.get('https://jsonplaceholder.typicode.com/posts/1');
-        // console.log(response.data);
+        const response = await axios.get('https://gorest.co.in/public/v2/users');
         MyData = response.data;
+        console.log(MyData);
         setData(MyData);
         
-        // console.log(MyData);
     }
+        // console.log(data);
 
 	return(
 			<>
-			<h1>List Data</h1>
-			<p>{data.body}</p>
-			
-			<p>{data.title}</p>
-			
-			<p>{data.id}</p>
-			
-			<p>{data.userId}</p>
+			<h1 style={{ color : 'red', textAlign: 'center' }}>List Data</h1>
+			<select>
+			{data.map(ab =>(
 
+				<option key={ab.id}>{ab.name} --- {ab.email}</option>
+			
+			))}
+			</select>
 			</>
 		);
 }

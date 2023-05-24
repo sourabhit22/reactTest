@@ -201,4 +201,90 @@ api server
  OOps!! your data submit {unsucessfully} 
 
 
+css inline
+css internal
+map funtion
+
+props or state
+
+
+style={{color : green}}
+
+text-align: center html
+textAlign: center react
+
+let css = ''
+
+
+css = {
+	colo: ,
+	colo: ,
+	colo: ,
+	colo: 
+}
+
+style= {css}
+
+concit =  '+' 
+a
+b
+c
+{a+b+c} = abc
+
+useState 
+
+template literals 
+{`a ${get}`}
+
+RESPONSE.msg= pass
+RESPONSE.msg= fail
+RESPONSE.msg= suprementory
+RESPONSE.msg= gresss
+
+cont [ get , set ] =  usestate('');
+
+resposne.status= true
+resposne.msg= successful
+
+resposne.status= false
+resposne.msg= unsuccessful
+
+props=> properties
+
+ek component se kisi component me hame koi value bhejna ho to hum 
+props ka use krte hai 
+
+uniform way -> parent to chlid
+-> attribute 
+
+
+laravel 2D [{},{},{}]
+foreach
+
+react map funtion 
+
+{arrayname.map(abc =>(
+))}
+
+
+<data>
+api data or map use
+table formate
+
+
+1nd email name -> <profile>
+name 
+email 
+username = name+email
+
+css
+map
+api
+props
+{+}
+
+
+
+
+
 
