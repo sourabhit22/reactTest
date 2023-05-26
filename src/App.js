@@ -22,7 +22,7 @@ function App() {
         <BrowserRouter>
               <Header></Header>
           <Routes>
-               <Route path ="/about" element={ <About id={'2'} /> } />
+               <Route path ="/about" element={ <About id={'4'} /> } />
                <Route path ="/user" element={ <User /> } />
                <Route path ="/service" element={ <Service /> } />
                <Route path ="/contact" element={ <ContactUs /> } />

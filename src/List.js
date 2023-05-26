@@ -20,7 +20,7 @@ useEffect(() => {
         MyData = response.data;
         console.log(MyData);
         setData(MyData);
-        
+
     }
         // console.log(data);
 
