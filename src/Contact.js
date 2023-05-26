@@ -28,9 +28,6 @@ const inputAirHandler = (e) => {
 
  	]
 
-
-
-
 function saveData(){
  // const setStatus = '';
 	const data = {
